@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&display=swap');
+
+/* font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+body{
+    font-family: 'Oswald', sans-serif;
+}
+
+#form-container{
+    margin-top: 50px;
+    /* background-color: aquamarine; */
+    padding: 25px;
+    width: 500px;
+}
+
+
+/* #form-container .container .row .side{
+    background-color: rgb(223, 181, 126);
+} */
+
+
+#form-container .container .row .side form{
+    /* background-color: chartreuse; */
+    width: 200px;
+}

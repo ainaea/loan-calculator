@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loan Calculator App</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+    <section id="form-container">
+        <div class="container text-center">
+            <h3>Loan Calculator App</h3>
+            <div class="row m-auto">
+                <div class="col-sm-4 side">
+                    <h3>Inputs</h3>
+                    <form action="">
+                        <div class="form-group mt-3">
+                            <label for="amount">Amount:</label><br>
+                            <input type="number" name="amount" id="amount" placeholder="Enter amount here" min="0">
+                        </div>
+                        <div class="form-group">
+                            <label for="rate">Rate:</label><br>
+                            <input type="number" name="rate" id="rate" placeholder="Enter rate here" min="0">
+                        </div>
+                        <div class="form-group">
+                            <label for="months">Months:</label><br>
+                            <input type="number" name="months" id="months" placeholder="Enter months here" min="0">
+                        </div>
+                        
+                    </form>
+                </div>
+                <div class="col-sm-2">
+                </div>
+                <div class="col-sm-4 side">
+                    <h3>Outputs</h3>
+                    <form action="">
+                        <div class="form-group mt-3">
+                            <label for="payment">Monthly payment:</label><br>
+                            <input type="number" name="payment" placeholder="Monthly payment here" id="payment" readonly>
+                        </div>
+                        <div class="form-group">
+                            <label for="tPayment">Total payment:</label><br>
+                            <input type="number" name="tPayment" id="tPayment" placeholder="Total payment here" readonly>
+                        </div>
+                        <div class="form-group">
+                            <label for="tInterest">Total interest:</label><br>
+                            <input type="number" name="tInterest" id="tInterest" placeholder="Total interest here" readonly>
+                        </div>
+                        
+                    </form>
+                </div>
+                
+            </div>
+            <div class="row">
+                <div class="col-sm-4 m-auto">
+                    <input type="button" value="Calculate" class="mt-2 btn-primary">
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <!-- <h4>Input below</h4>
+    <input type="number" name="amount" id="amount" placeholder="Enter amount here" min="0">
+    <input type="number" name="rate" id="rate" placeholder="Enter rate here" min="0">
+    <input type="number" name="months" id="months" placeholder="Enter months here" min="0">
+    <input type="button" value="calculate">
+
+    <h4>Result here</h4>
+    <input type="number" name="payment" id="payment" placeholder="Read payment here" readonly> -->
+    
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
